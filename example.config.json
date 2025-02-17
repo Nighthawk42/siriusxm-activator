@@ -1,0 +1,17 @@
+{
+    "device_id": "12345678-1234-1234-1234-123456789abc",
+    "configurations": [
+        {
+            "RadioID": "RADIO1234",
+            "Make": "FakeMake",
+            "Model": "FakeModel",
+            "Year": "2020"
+        },
+        {
+            "RadioID": "RADIO5678",
+            "Make": "FakeMake2",
+            "Model": "FakeModel2",
+            "Year": "2021"
+        }
+    ]
+}
