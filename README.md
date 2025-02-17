@@ -1,3 +1,30 @@
+# SiriusXM API Activation Client
+
+A Python client that interacts with SiriusXM API endpoints to perform an activation. The client handles user authentication, version checks, device property retrieval, and several activation-related API calls. It also manages configuration and logs activation events.
+
+## Features
+
+- **User Authentication:** Logs in to the SiriusXM API and obtains an authentication token.
+- **Version & Device Checks:** Performs version control and device property retrieval.
+- **Activation Workflow:** Updates device status, refreshes status, updates a Google database, blocks devices, and performs Oracle program status checks.
+- **Account Management:** Creates new accounts as part of the activation process.
+- **Configuration Management:** Supports adding and selecting device configurations stored in a JSON file.
+- **Robust Logging:** Uses a rotating file handler to log API calls and errors.
+
+## Requirements
+
+- Python 3.7+
+- [Requests](https://pypi.org/project/requests/)
+
+Install dependencies with:
+
+```bash
+pip install requests
+python main.py
+```
+
+-------------------------------------------------
+
 # [siriusxm-activator](https://github.com/parker-stephens/siriusxm-activator)
 
 This is a python script that can activate a Sirius radio for three months at a time.
